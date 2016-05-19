@@ -1,0 +1,28 @@
+{
+  "name": "node-desktop-bg",
+  "version": "1.0.0",
+  "description": "A native module to set the desktop image in Mac OSX.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp build"
+  },
+  "os": ["darwin"],
+  "engines": {
+    "node": "5.x"
+  },
+  "keywords": [
+    "native",
+    "desktop",
+    "image",
+    "background",
+    "os",
+    "osx",
+    "mac"
+  ],
+  "author": "ccnokes",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
