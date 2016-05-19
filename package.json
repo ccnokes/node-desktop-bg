@@ -20,6 +20,10 @@
     "osx",
     "mac"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccnokes/node-desktop-bg"
+  },
   "author": "ccnokes",
   "license": "ISC",
   "dependencies": {
